@@ -39,7 +39,7 @@ namespace DocGen_2
             drowMainForm();
         }
 
-        #region отрисовка щаблона заполнения
+        #region отрисовка шаблона заполнения
         //Функция для отрисовки шаблона заполнения
         private void drowMainForm()
         {
@@ -68,7 +68,7 @@ namespace DocGen_2
 
         }
 
-        //Функция для очмстки экрана
+        //Функция для очистки экрана
         private void unDrowMainForm()
         {
             for (int i = 0; i < indexes; i++)
