@@ -25,6 +25,7 @@ namespace DocGen_2
         Shabls shabls;
         Form1 form;
 
+        //При создании формы добавляются элементы первой строки
         public ShablEditor(Form1 Forma)
         {
             InitializeComponent();
@@ -45,6 +46,7 @@ namespace DocGen_2
             form = Forma;
         }
 
+        //При создании формы создаются заполненные (при открытии из файла)
         public ShablEditor(Form1 Forma, Shabls sh)
         {
             InitializeComponent();
@@ -80,6 +82,7 @@ namespace DocGen_2
             form = Forma;
         }
 
+        //добавление/убирание строк через numericUpDown при открытии формы которя должна быть заполненной
         private void numericUpDown1_ValueChanged2(object sender, EventArgs e)
         {
 
@@ -109,6 +112,7 @@ namespace DocGen_2
 
         }
 
+        //добавление/убирание строк через numericUpDown
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
             if (numericUpDown1.Value > countOfLines)
@@ -153,6 +157,7 @@ namespace DocGen_2
             }
         }
 
+        //Передача данных в главную форму
         private void button1_Click(object sender, EventArgs e)
         {
             for(int i=0; i<numericUpDown1.Value; i++)
