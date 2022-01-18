@@ -29,6 +29,7 @@ namespace DocGen_2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShablEditor));
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -94,6 +95,7 @@ namespace DocGen_2
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ShablEditor";
             this.Text = "ShablEditor";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();

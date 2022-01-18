@@ -84,7 +84,7 @@ namespace DocGen_2
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(6, 174);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(603, 120);
+            this.label3.Size = new System.Drawing.Size(609, 120);
             this.label3.TabIndex = 4;
             this.label3.Text = resources.GetString("label3.Text");
             // 
@@ -121,7 +121,7 @@ namespace DocGen_2
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(3, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(564, 45);
+            this.label1.Size = new System.Drawing.Size(567, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
             // 
@@ -156,7 +156,7 @@ namespace DocGen_2
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(6, 257);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(619, 45);
+            this.label6.Size = new System.Drawing.Size(623, 45);
             this.label6.TabIndex = 4;
             this.label6.Text = resources.GetString("label6.Text");
             // 
@@ -175,10 +175,10 @@ namespace DocGen_2
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(6, 149);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(694, 30);
+            this.label5.Size = new System.Drawing.Size(733, 30);
             this.label5.TabIndex = 2;
-            this.label5.Text = "3) В открывшемся окне ввести имя закладки, которое должно совпадать с тем, что вв" +
-    "едено или будет введено в программе \r\n    и нажать кнопку добавить";
+            this.label5.Text = "3) В открывшемся окне нужно ввести имя закладки, которое должно совпадать с тем, " +
+    "что введено или будет введено в программе \r\n    и нажать кнопку \"Добавить\".";
             // 
             // pictureBox3
             // 
@@ -195,9 +195,11 @@ namespace DocGen_2
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 3);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(601, 45);
+            this.label4.Size = new System.Drawing.Size(605, 45);
             this.label4.TabIndex = 0;
-            this.label4.Text = resources.GetString("label4.Text");
+            this.label4.Text = "Для подготоки шаблона .dotx нужно:\r\n1) Поставить курсор в место, куда будут подст" +
+    "авляться данные.\r\n2) Перейти во вкладку \"Вставка\", нажать на кнопку \"Ссылки\" и в" +
+    "о всплывающем меню выбрать \"Закладка\".";
             // 
             // instr
             // 
@@ -206,6 +208,7 @@ namespace DocGen_2
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "instr";
             this.Text = "Справка";
             this.tabControl1.ResumeLayout(false);
